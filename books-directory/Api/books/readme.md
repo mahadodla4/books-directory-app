@@ -69,19 +69,13 @@ const swaggerSpec = swaggerJSDoc(options);
 module.exports = swaggerSpec;
 ```
 
-### 6. Create `app.js`
-
-```js
-// Full content from your app.js (make sure to use req.params.id in PUT and DELETE)
-```
-
-### 7. Run the Server
+### 6. Run the Server
 
 ```bash
 node app.js
 ```
 
-### 8. Open the API Docs
+### 7. Open the API Docs
 
 - API endpoint: [http://localhost:5000/api/books](http://localhost:5000/api/books)
 - Swagger UI: [http://localhost:5000/api-docs](http://localhost:5000/api-docs)
@@ -107,7 +101,3 @@ Update book by index.
 Delete book by index.
 
 ---
-
-## 📚 License
-
-This project is for educational purposes only.
